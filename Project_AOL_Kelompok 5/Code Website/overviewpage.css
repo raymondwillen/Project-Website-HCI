@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+.box-login{
+    float: right;
+    margin-right: 17rem;
+    margin-top: -3.5rem;
+    transition: all 1s ease-in;
+}
+.login a button:hover{
+    color: #ffffff;
+    background-color: #b72d2d;
+}
+.box-regis{
+    float: right;
+    margin-right: 7rem;
+    margin-top: -3.5rem;
+}
+.login button{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-color: #ffffff;
+    border-style:double;
+}
+.box-regis button{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-color: #ffffff;
+    border-style:double;
+}
+.box-regis{
+    float: right;
+    margin-right: 8rem;
+    margin-top: -3.5rem;
+    transition: all 0.5s ease-in;
+    position: relative;
+    text-decoration: none;
+}
+.register a button:hover{
+    color: #ffffff;
+    background-color: #b72d2d;
+}
+header{
+    background-color: rgb(172, 53, 53);
+    height: 7rem;
+    position:fixed;
+    margin-top: rem;
+    width: 100%;
+    display:inline-block;
+    z-index: 100;
+}
+.navbar header{
+    position: relative;
+}
+.logo img{
+    width: 350px;
+    padding-top: 1.3rem;
+    padding-left: 3rem;
+}
+iframe{
+    margin-top: 7rem;
+    width: 100%;
+}
+.text h1{
+    padding-top: 3rem;
+    padding-left: 5rem;
+}
+.text p{
+    padding-top: 0.5rem;
+    padding-left: 5rem;
+}
+.box{
+    display: flex;
+    margin-top: -1rem;
+}
+.box1{
+    background-color: #b72d2d;
+    box-shadow: #24262b;
+    height: 21rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.photo1{
+    margin-top: 1rem;
+    margin-bottom: -3rem;
+    height: 20rem;
+    width: 30rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.photo1 img{
+    border-radius: 10px;
+    width: 350px;
+    margin-top: 2rem;
+    margin-left: 3.8rem;
+    margin-right: 1rem;
+}
+.box2{
+    background-color: #b72d2d;
+    box-shadow: #24262b;
+    height: 21rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.photo2{
+    margin-top: 1rem;
+    margin-bottom: -3rem;
+    height: 20rem;
+    width: 30rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.photo2 img{
+    border-radius: 10px;
+    width: 350px;
+    margin-top: 2rem;
+    margin-left: 3.8rem;
+    margin-right: 1rem;
+}
+.box3{
+    background-color: #b72d2d;
+    box-shadow: #24262b;
+    height: 21rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.photo3{
+    margin-top: 1rem;
+    margin-bottom: -3rem;
+    height: 20rem;
+    width: 30rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.photo3 img{
+    border-radius: 10px;
+    width: 350px;
+    margin-top: 2rem;
+    margin-left: 3.8rem;
+    margin-right: 1rem;
+}
+footer{
+    margin-top: 5rem;
+    background-color: rgb(189, 62, 54);
+    height: 310px;
+}
+.logo-foot img{
+    width: 350px;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+.text h3{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    font-weight:bold;
+    font-size: 23px;
+    color: #ffffff;
+}
+.footer-logo .ig a{
+    display:block;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    margin-left: 70rem;
+    margin-top: -7.5rem;
+    font-size: 20px;
+    padding-top: 0.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.footer-logo .ig a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+.logo-text1 h3{
+    float: right;
+    padding-right: 15rem;
+    padding-top: -3rem;
+    margin-top: -3.7rem;
+    color: #ffffff;
+    font-size: 20px;
+}
+.logo-text2 h3{
+    float: right;
+    padding-right: 15rem;
+    padding-top: -3rem;
+    margin-top: 0.7rem;
+    color: #ffffff;
+    font-size: 20px;
+}
+.copy h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10rem;
+    text-align: center;
+}

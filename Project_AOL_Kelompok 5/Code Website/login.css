@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+.box-login{
+    float: right;
+    margin-right: 17rem;
+    margin-top: -3.5rem;
+    /* transition: all 1s ease-in; */
+}
+.login a button:hover{
+    color: #ffffff;
+    background-color: #b72d2d;
+}
+.box-regis{
+    float: right;
+    margin-right: 7rem;
+    margin-top: -3.5rem;
+}
+.login button{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-color: #ffffff;
+    border-style:double;
+}
+.box-regis button{
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border-color: #ffffff;
+    border-style:double;
+}
+.box-regis{
+    float: right;
+    margin-right: 8rem;
+    margin-top: -3.5rem;
+    /* transition: all 0.5s ease-in; */
+    position: relative;
+    text-decoration: none;
+}
+.register a button:hover{
+    color: #ffffff;
+    background-color: #b72d2d;
+}
+header{
+    background-color: rgb(172, 53, 53);
+    height: 7rem;
+    position:fixed;
+    margin-top: -60rem;
+    width: 100%;
+    display:inline-block;
+    z-index: 100;
+}
+.navbar header{
+    position: relative;
+}
+.logo img{
+    width: 350px;
+    padding-top: 1.3rem;
+    padding-left: 3rem;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-field{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    font-weight: bolder ;
+}
+#form-login .form-field{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.form-field>label{
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+.form-field>input{
+    height: 1.5rem;
+    border-radius: 8px;
+    border: 0.25px solid rgb(0, 0, 0.384);
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#radio-group input{
+    margin-left: 2rem;
+}
+.form-field>input:focus{
+    outline: none;
+}
+#radio-group input{
+    cursor: pointer;
+}
+.form-field #radio-group{
+    margin-top: 0.5rem;
+}
+.form-field #useremail{
+    margin-top: 0.5rem;
+}
+.form-field #username{
+    margin-top: 0.5rem;
+}
+.form-field #password{
+    margin-top: 0.5rem;
+}
+.form-field #re-password{
+    margin-top: 0.5rem;
+}
+.form-field #dob{
+    margin-top: 0.5rem;
+}
+body{
+    background-color: rgb(99, 113, 113);
+    background-image: url('loginbackground.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+form{
+    position: absolute;
+    width: 30%;
+    height: 30rem;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    padding: 1rem;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+#radio-group{
+    display: flex;
+    column-gap: 1rem;
+}
+#radio-group>div>input{
+    width: 1.1rem;
+    height: 1.1rem;
+}
+#radio-group>div{
+    display: inherit;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.agreecontainer{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:row-reverse;   
+    column-gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+    margin-left: -5rem;
+    font-weight: bolder;
+}
+.agreecontainer>input{
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+#login-button{
+    margin-top: 1rem;
+    background-color: rgb(172, 53, 53);
+    width: 65%;
+    height: 2rem;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 6rem;
+}
+#login-button:hover{
+    background-color: rgb(189, 62, 54);
+}
+footer{
+    margin-top: 60rem;
+    background-color: rgb(189, 62, 54);
+    height: 310px;
+}
+.logo-foot img{
+    width: 350px;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+.text h3{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    font-weight:bold;
+    font-size: 23px;
+    color: #ffffff;
+}
+.footer-logo .ig a{
+    display:block;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    margin-left: 70rem;
+    margin-top: -7.5rem;
+    font-size: 20px;
+    padding-top: 0.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.footer-logo .ig a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+.logo-text1 h3{
+    float: right;
+    padding-right: 15rem;
+    padding-top: -3rem;
+    margin-top: -3.7rem;
+    color: #ffffff;
+    font-size: 20px;
+}
+.logo-text2 h3{
+    float: right;
+    padding-right: 15rem;
+    padding-top: -3rem;
+    margin-top: 0.7rem;
+    color: #ffffff;
+    font-size: 20px;
+}
+.copy h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10rem;
+    text-align: center;
+}
